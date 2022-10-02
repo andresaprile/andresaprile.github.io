@@ -1,0 +1,379 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-utilities.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://kit.fontawesome.com/b666305a31.js" crossorigin="anonymous"></script>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+	
+<main>
+	
+  <div style="margin-bottom: 2vh">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house fa-lg" style="margin-right: 20px;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mySkills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myLanguages">Languages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myCourses">Courses</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                English
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Español</a></li>
+                <li><a class="dropdown-item" href="#">Português <span class="badge text-bg-primary"> Coming soon</span></a></li>
+				        <li><a class="dropdown-item" href="#">Italiano <span class="badge text-bg-primary"> Coming soon</span></a></li>
+				        <li><a class="dropdown-item" href="#">Français <span class="badge text-bg-primary"> Coming soon</span></a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Translate using Google Traductor</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+	<div class="container min-vh-100 d-flex h-100" style="padding: 10vh;">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6 container">
+        <img data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" src="img/profilePic.PNG" class="d-block mx-lg-auto img-fluid rounded-circle" alt="Bootstrap Themes" loading="lazy">
+      </div>
+      <div data-aos="zoom-in" data-aos-delay="800" data-aos-once="true" class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3"><div id="whoAmI"></div></h1>
+        <p class="lead"><b>Full-stack developer</b> with an extensive background in technology. Knowledge in several programming languages, techonlogies and best practices.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a class="btn btn-primary btn-lg px-4 me-md-2" href="#aboutMe" role="button">Learn More</a>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4"><i class="fa-solid fa-download"></i> Get my resume (.PDF)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<div id="aboutMe" class="container text-center">
+
+    <div class="section min-vh-100" data-aos="zoom-in">
+      <hr>
+
+    <div class="row">
+      <div class="col-sm"><p><h1>About me:</h1>
+        Ever since I was little I've been very passionate about anything and everything about technology. <br>
+          Since my dad was at work when I used his PC, I was very self-dependent experimenting with different software, games and even linux distros I found online <br>
+           (at times making my dad angry at me for things breaking. That is, if I didn't fix them in time before he arrived).
+           <br> I believe this is the reason I'm a very autodidact person, not afraid of getting my hands dirty and facing new challenges that may come up.
+      <br></p></div>
+    </div>
+  
+  <div class="row">
+
+    <div class="col">
+      <figure class="figure"  data-aos="zoom-out-right" data-aos-delay="700">
+  <img src="img/littleMe2.jpg" class="figure-img figureSize rounded-5" alt="...">
+  <figcaption class="figure-caption text-center">2 year old me playing pinball on Windows XP.</figcaption>
+</figure>
+    </div>
+
+    <div class="col">
+      <figure class="figure" data-aos="zoom-out" data-aos-delay="1100">
+  <img src="img/littleMe3.jpg" class="figure-img figureSize rounded-5" alt="...">
+  <figcaption class="figure-caption text-center">My dad making sure I'm on the right path.</figcaption>
+</figure>
+    </div>
+
+    <div class="col">
+      <figure class="figure"  data-aos="zoom-out-left" data-aos-delay="900">
+  <img src="img/littleMe.jpg" class="figure-img figureSize rounded-5" alt="...">
+  <figcaption class="figure-caption text-center">Also me playing Need for Speed.</figcaption>
+</figure>
+    </div> 
+    
+  </div>
+
+  <hr> Fun fact, according to the MBTI, I have the <a href="https://www.16personalities.com/intp-personality" target="_blank">logic personality type (INTP)</a> and as it turns out, it comes in handy when you are a developer.
+  
+</div>
+
+	
+	
+	
+<span id="mySkills" class="min-vh-100">
+<div class="section" data-aos="zoom-in">	
+	<hr>
+	<p><h1>Skills:</h1>
+
+    <div class="row" data-aos="zoom-out" data-aos-delay="500">
+      <div class="col-sm"><h6><img src="img/logos/html5.png" class="logo"> HTML5</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+      <div class="col-sm"><h6><img src="img/logos/css3.png" class="logo"> CSS3</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+      <div class="col-sm"><h6><img src="img/logos/Bootstrap.png" class="logo"> Bootstrap</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+    </div>
+
+    <div class="row" data-aos="zoom-out" data-aos-delay="700">
+      <div class="col-sm"><h6><img src="img/logos/python.png" class="logo"> Python</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+      <div class="col-sm"><h6><img src="img/logos/javaScript.png" class="logo"> JavaScript</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+      <div class="col-sm"><h6><img src="img/logos/react.png" class="logo"> React</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+    </div>
+
+    <div class="row" data-aos="zoom-out" data-aos-delay="900">
+      <div class="col-sm"><h6><img src="img/logos/C++.png" class="logo"> C++</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+      <div class="col-sm"><h6><img src="img/logos/CSharp.png" class="logo"> C#</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+      <div class="col-sm"><h6><img src="img/logos/Java.png" class="logo"> Java</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+    </div>
+
+    <div class="row" data-aos="zoom-out" data-aos-delay="1100">
+      <div class="col-sm"><h6><img src="img/logos/kotlin.png" class="logo"> Kotlin</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+      <div class="col-sm"><h6><img src="img/logos/PHP.png" class="logo"> PHP</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div>
+      <div class="col-sm"><h6><img src="img/logos/MySQL.png" class="logo"> MySQL</h6>
+        <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+      </div></div></div>	
+	</p>
+</div>
+
+<div class="section" data-aos="zoom-in">
+	<hr>
+	<p><h1>Other relevant knowledge:</h1></p>
+
+  <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
+    <ul class="list-group">
+      <li class="list-group-item" data-aos="zoom-out" data-aos-delay="500">Versioning tools: <br> <img src="img/logos/Git.png" class="logo"> Git <img src="img/logos/GitHub.png" class="logo"> GitHub</li>
+      <li class="list-group-item" data-aos="zoom-out" data-aos-delay="700">Relevant Adobe software: <br> <img src="img/logos/photoshop.png" class="logo"> Photoshop <img src="img/logos/Illustrator.png" class="logo"> Illustrator <img src="img/logos/dreamweaver.png" class="logo"> Dreamweaver <img src="img/logos/XD.png" class="logo"> XD <img src="img/logos/afterEffects.png" class="logo"> After Effects</li>
+      <li class="list-group-item" data-aos="zoom-out" data-aos-delay="900"><img src="img/logos/office.png" class="logo"> Microsoft Office Suite <br>(Word, Excel, PowerPoint, Outlook, Teams, OneDrive, Visio)</li>
+      <li class="list-group-item" data-aos="zoom-out" data-aos-delay="1100" data-aos-anchor-placement="bottom-bottom">Game Engines (basic tools): <br> 
+        <img src="img/logos/unity.png" class="logo"> Unity <img src="img/logos/unrealE.png" class="logo"> Unreal Engine</li>
+      <li class="list-group-item" data-aos="zoom-out" data-aos-delay="1300" data-aos-anchor-placement="bottom-bottom">If there's anything I'm not familiar with to face a new challenge, I'll do my best to learn it! (as I have done in the past)</li>
+    </ul>
+    </div></div>
+	
+</div></span>
+
+<span id="myLanguages"></span>	
+<div class="section" data-aos="zoom-in">
+	<hr><h1>Languages I speak:</h1><br>    
+      <div class="row">
+        <div class="col-sm"><div class="card" data-aos="zoom-out" data-aos-delay="500">
+          <img src="img/flags/English.png" class="card-img-top flag" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">English</h5>
+            <p class="card-text">Written: Native<br>Spoken: Near-native</p>      
+          </div>
+        </div></div>
+        <div class="col-sm"><div class="card" data-aos="zoom-out" data-aos-delay="800">
+          <img src="img/flags/Spanish.png" class="card-img-top flag" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Spanish</h5>
+            <p class="card-text">Written: Native<br>Spoken: Native</p>
+          </div>
+        </div></div>
+        <div class="col-sm"><div class="card" data-aos="zoom-out" data-aos-delay="1100">
+          <img src="img/flags/portuguese.png" class="card-img-top flag" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Portuguese</h5>
+            <p class="card-text">Written: Intermediate<br>Spoken: Intermediate</p>
+          </div>
+        </div></div>
+        <div class="col-sm"><div class="card" data-aos="zoom-out" data-aos-delay="1400">
+          <img src="img/flags/French.png" class="card-img-top flag" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">French</h5>
+            <p class="card-text">Written: Basic<br>Spoken: Basic</p>
+          </div>
+        </div></div>
+        <div class="col-sm"><div class="card" data-aos="zoom-out" data-aos-delay="1700">
+          <img src="img/flags/Italian.png" class="card-img-top flag" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Italian</h5>
+            <p class="card-text">Written: Basic<br>Spoken: Basic</p>
+          </div>
+        </div></div>
+      </div>
+
+
+
+
+</div>
+
+
+
+
+<span id="myCourses"></span>	
+<div class="section" data-aos="zoom-in">
+  <hr> <p><h1>Completed courses:</h1><br>
+    <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
+      <ul class="list-group">
+        <li class="list-group-item" data-aos="zoom-out" data-aos-delay="500"><a href="https://learndigital.withgoogle.com/activate/course/apps" target="_blank">Mobile App Development</a> by Google and Universidad Complutense de Madrid</li>
+        <li class="list-group-item" data-aos="zoom-out" data-aos-delay="700"><a href="https://www.coursera.org/learn/learning-how-to-learn" target="_blank">Learning How to Learn</a>: Powerful mental tools to help you master tough subjects by Barbara Oakley</li>
+        <li class="list-group-item" data-aos="zoom-out" data-aos-delay="900"><div class="spinner-border spinner-border-sm text-primary" role="status" style="margin-right: 5px;"></div> Python Full-stack Development with Python (in progress)</li>
+        <li class="list-group-item" data-aos="zoom-out" data-aos-delay="1100"><div class="spinner-border spinner-border-sm text-primary" role="status" style="margin-right: 5px;"></div> DevOps, Salesforce & Salesforce Industries (in progress)</li>
+        <li class="list-group-item" data-aos-anchor-placement="bottom-bottom" data-aos="zoom-out" data-aos-delay="1300">In order to acquire the knowledge I have so far, I've used countless websites, books, YouTube videos, reddit posts, univeristy classes, programming documentation, online articles and so on and so forth; It would be impossible to list here. I'm constantly finding ways to better myself through education.</li>
+      </ul>
+      </div></div>
+  
+  
+  
+  
+  
+  </p>
+
+
+
+
+
+
+</div>
+
+<br><br><br>
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="mb-3 mb-md-0 text-muted">2022 - Andrés Aprile</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a href="https://github.com/andresaprile" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
+      <li class="ms-3"><a href="#"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+      <li class="ms-3"><a href="#"><i class="fa-brands fa-behance fa-xl"></i></a></li>
+    </ul>
+  </footer>
+</div>
+
+
+
+</div>
+
+	
+</div>
+</main>
+	
+	
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+    delay: 400, // values from 0 to 3000, with step 50ms
+    duration: 1300, // values from 0 to 3000, with step 50ms
+    once: true, // whether animation should happen only once - while scrolling down
+    anchorPlacement: 'center-bottom'// defines which position of the element regarding to window should trigger the animation
+  });
+
+  </script>
+
+	
+	<script>
+		var app = document.getElementById('whoAmI');
+    
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('I am Andrés Aprile..')
+    .pauseFor(3000)
+    .deleteChars(15)
+    .typeString('a developer.')
+    .pauseFor(2500)
+	.deleteChars(10)
+    .typeString('designer.')
+    .pauseFor(2500)
+	.deleteChars(9)
+    .typeString('student.')
+    .pauseFor(2500)
+    .start();
+		
+	</script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
