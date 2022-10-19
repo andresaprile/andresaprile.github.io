@@ -37,6 +37,16 @@ html {
   margin-left: 10px;
 }
 
+#downArrow {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 20vh;
+  text-decoration: none;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
